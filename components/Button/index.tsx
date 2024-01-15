@@ -1,6 +1,6 @@
 import React from 'react'
 import { ButtonProps } from '../../types/propTypes'
-import { Container } from './ButtonElements'
+import { Container } from './style'
 
 const Button = ({ title, type, onClick }: ButtonProps) => {
     return (

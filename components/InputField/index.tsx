@@ -4,7 +4,7 @@ import {
     Container,
     Input,
     Label
-} from './InputFieldElements'
+} from './style'
 
 const InputField = ({ label, type }: InputFieldProps) => {
     return (

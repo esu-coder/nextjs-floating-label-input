@@ -1,6 +1,6 @@
 import React from 'react'
 import { FormProps } from '../../types/propTypes'
-import { FormContainer, FormTitle } from './FormElements'
+import { FormContainer, FormTitle } from './style'
 
 const Form = ({ children }: FormProps) => {
     return (
