@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Button from '../components/Button'
-import Form from '../components/Form'
-import InputField from '../components/InputField'
+import Head from 'next/head';
+import Button from '@src/components/Button';
+import Form from '@src/components/Form';
+import InputField from '@src/components/InputField';
 
 export default function Home() {
   return (
@@ -14,12 +14,12 @@ export default function Home() {
       </Head>
       <main>
         <Form>
-          <InputField label={"Username"} />
-          <InputField label={"Password"} type={"password"} />
+          <InputField label={'Username'} />
+          <InputField label={'Password'} type={'password'} />
 
           <Button title="Login" />
         </Form>
       </main>
     </>
-  )
+  );
 }
