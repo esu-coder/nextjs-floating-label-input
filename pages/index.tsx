@@ -16,7 +16,6 @@ export default function Home() {
         <Form>
           <InputField label={'Username'} />
           <InputField label={'Password'} type={'password'} />
-
           <Button title="Login" />
         </Form>
       </main>
